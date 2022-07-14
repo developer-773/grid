@@ -1,0 +1,153 @@
+ *{
+    box-sizing: border-box;
+}
+
+img{
+    
+    vertical-align: middle;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: minmax(350px, auto) 400px 400px;
+    /* grid-template-columns: 300px auto auto;    */
+    grid-template-columns: repeat(2, 400px) minmax(50px, 400px);
+    grid-auto-rows: minmax(350px, auto);
+    grid-gap: 30px; 
+    justify-content: center;
+    align-content: center;
+}
+
+.gr{
+
+    background-color: #2196F3;
+}
+
+.gr:nth-child(1){
+    background-image: url("../images/1_9ammEoF0I5mzPaQQsUislg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.gr:nth-child(2){
+    grid-row: 1 / 3;
+    grid-column: 2 ;
+    background-image: url("../images/Artificial-Intelligence-5-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 496px 783px;
+}
+
+.gr:nth-child(3){
+    background-image: url("../images/server.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.gr:nth-child(4){
+    grid-row: 2 span;
+    background-image: url("../images/4.jpg");
+    background-repeat: no-repeat;
+    background-size: 479px 830px; 
+}
+
+.gr:nth-child(5){
+    grid-row: 2 span;
+    background-image: url("../images/developer.jpg");
+    background-repeat: no-repeat;
+    background-size: 479px 830px;
+}
+
+
+.gr:nth-child(6){
+    grid-row: 2 span;
+    background-image: url("../images/information-technology-logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 479px 830px; 
+}
+
+.gr:nth-child(7){
+    grid-row: 2 span;
+    background-image: url("../images/hackers-hacking.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.gr:nth-child(8){
+    grid-row: 2 span;
+    background-image: url("../images/man-touch.jpg");
+    background-repeat: no-repeat;
+    background-size: 479px 830px; 
+}
+
+.gr:nth-child(9){
+    background-image: url("../images/service-details-img-5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+
+
+
+
+/*
+
+.grid {
+    display: grid;
+    height: 100%;
+    grid-gap: 10px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(4, auto);
+    
+}
+
+.gr{
+    background-color: green;
+}
+
+.grid-one{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url("../images/1_9ammEoF0I5mzPaQQsUislg.jpeg");
+    background-size: contain;
+}
+
+.grid-two{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.grid-three{
+    background-color: red;
+}
+
+.grid-four{
+    background-color:orange
+}
+
+.grid-five{
+    background-color:red;
+}
+
+.grid-six{
+    grid-row-start:2;
+    grid-row-end:4;
+    grid-column-start: 4;
+    
+}
+
+.grid-seven{
+    background-color: red;
+}
+
+.grid-eight{
+    background-color:orange;
+} */
